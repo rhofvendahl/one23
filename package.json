@@ -1,17 +1,10 @@
 
 
 {
-  "name": "react-flask-heroku",
-  "version": "1.0.0",
-  "dependencies": {
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-scripts": "^3.4.1"
-  },
+  "name": "one23",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "heroku-postbuild": "cd frontend && npm install && npm run build"
   }
 }
