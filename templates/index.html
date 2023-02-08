@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+  <head>
+    <title>one23</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div id="content-wrapper">
+      <div id="content">
+        <h1 id="welcome">Welcome to this app!</h1>
+        <div id="conversation"></div>
+    
+        <p id="prompt">Enter a message</p>
+        <form id="form">
+          <textarea id="user-input" type="text" id="user-input" name="user-input"></textarea><br>
+          <input id="submit" type="submit" value="Submit">
+        </form> 
+        <br>
+ <!--       <button id="moderation-toggle">Show moderation</button>
+        <div id="moderation" hidden="true">Moderation N/A</div>-->
+      </div>
+    </div>
+  </body>
+</html>
